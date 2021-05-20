@@ -3,14 +3,25 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Timer</title>
+    <title>Sprawdzanie liczb</title>
     <script type="text/javascript" src="../JS/main.js"></script>
+    <link rel="stylesheet" href="../CSS/index-css.css" />
 
 </head>
 
-<body onload="odliczanie();">
+<body>
 
-    <div id="zegar"></div>
+    <center>
+        <div class="spacja-1"></div>
+
+        <input type="text" id="pole" />
+        <input type="submit" value="Sprawdź" onclick="sprawdz()" />
+
+        <div class="spacja-2"></div>
+
+        <div id="wynik"></div>
+    </center>
+
 
 </body>
 
