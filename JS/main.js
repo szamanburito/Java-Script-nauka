@@ -6,7 +6,7 @@ function wypisz() {
 
     for (i = liczba1; i <= liczba2; i++) {
         napis = napis + i + " ";
-        setTimeout(1000)
+        setTimeout(wypisz(), 1000);
     }
     document.getElementById("numery").innerHTML = napis;
 
