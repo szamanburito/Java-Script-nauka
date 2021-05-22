@@ -5,3 +5,13 @@
 .spacja-2 {
     margin-bottom: 20px;
 }
+
+#wynik {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#wynik:hover {
+    background-color: grey;
+    color: black;
+}
